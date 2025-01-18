@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: "Roboto", serif;
+}
+body{
+    background-color: #151937;
+}
+.text-gradient-1{
+    background: linear-gradient(270.78deg,#ffa7a9 4.19%,#ff5ea3 96.11%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.bg-gradient-1{
+    background: linear-gradient(-90deg,#ff7df2,#ff275b);
+}
